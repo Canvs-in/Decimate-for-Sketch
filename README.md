@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # decimate
 
 ## Installation
@@ -90,3 +91,4 @@ You will need to specify a `repository` in the `package.json`:
 +  }
 ...
 ```
+=======
