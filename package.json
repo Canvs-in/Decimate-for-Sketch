@@ -1,7 +1,7 @@
 {
   "name": "decimate",
-  "description": "",
-  "version": "0.1.0",
+  "description": "Round Fractional font sizes",
+  "version": "1.0.0.0",
   "engines": {
     "sketch": ">=49.0"
   },
@@ -23,5 +23,9 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "Depro20 <roy@canvs.in>"
+  "author": "Depro20 <roy@canvs.in>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Canvs-in/Decimate-for-Sketch.git"
+  }
 }
