@@ -26,9 +26,7 @@ function iter(layer) {
   if (layer.layers) {
     layer.layers.forEach(iter);
   }
-//     log(layer.type)
-//     log("- - - ")
-  
+
 
   if (layer.type == "Text") { 
     var fs=layer.style.fontSize
@@ -54,5 +52,6 @@ function iter(layer) {
 
 export default function onRun(context){
 iter(selectedLayers.layers[0] )
+log("done")
 }
 

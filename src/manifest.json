@@ -3,13 +3,17 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
+      "name": "Magic Wand ✨",
       "identifier": "decimate.my-command-identifier",
-      "script": "./my-command.js"
+      "script": "./mains.js",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "shortcut": "ctrl d"
     }
   ],
   "menu": {
-    "title": "decimate",
+    "title": "Decimate ⚔︎",
     "items": [
       "decimate.my-command-identifier"
     ]
