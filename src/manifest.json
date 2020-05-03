@@ -4,18 +4,36 @@
   "commands": [
     {
       "name": "Magic Wand ✨",
-      "identifier": "decimate.my-command-identifier",
+      "identifier": "springclean",
       "script": "./mains.js",
       "handlers" : {
         "run" : "onRun"
       },
       "shortcut": "ctrl d"
+    },
+    {
+      "name": "Only Fonts 🔠",
+      "identifier": "fontclean",
+      "script": "./mains.js",
+      "handlers" : {
+        "run" : "font_rec"
+      }
+    },
+    {
+      "name": "Only Shapes 🔹",
+      "identifier": "shapeclean",
+      "script": "./mains.js",
+      "handlers" : {
+        "run" : "shape_rec"
+      }
     }
   ],
   "menu": {
     "title": "Decimate ⚔︎",
     "items": [
-      "decimate.my-command-identifier"
+      "springclean",
+      "fontclean",
+      "shapeclean"
     ]
   }
 }
